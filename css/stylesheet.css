@@ -9,3 +9,12 @@ h2 + p {
     border-bottom: grey 1px solid;
 }
 
+a:active {
+    color: green;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: pink;
+}
