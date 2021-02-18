@@ -4,13 +4,8 @@ div h2{
 h2 + p {
     color: red;
 }
-.list {
-    list-style: none;
-      
+.list > li{
+    list-style-type: none;
+    border-bottom: grey 1px solid;
 }
-.list ul {
-    list-style: none;
-}
-p + ul{
-    border-bottom: 1px grey;
-}
+
